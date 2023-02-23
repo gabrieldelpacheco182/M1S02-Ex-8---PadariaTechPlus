@@ -1,0 +1,9 @@
+do {
+    let produto1 = parseFloat(prompt("Valor do 1º produto?"));
+   let produto2 = parseFloat(prompt("valor do 2º produto?"));
+   let total = produto1+produto2;
+    alert("total da compra é: "+total)
+    let valorPago = parseFloat(prompt("Dinheiro dado pelo cliente?"));
+    let troco = valorPago - total;
+    alert("Troco a ser devolvido para o cliente é: "+troco);
+} while (condition);
